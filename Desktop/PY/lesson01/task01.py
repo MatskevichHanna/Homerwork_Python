@@ -7,10 +7,10 @@
 # - 7 -> да
 # - 1 -> нет
 
-day = int(input('Введите число от 1 до 7:\n'))
-if day > 5 and day < 8:
+day_number = int(input('Введите число от 1 до 7:\n'))
+if day_number > 5 and day_number < 8:
     print('Да')
-elif day > 0 and day < 6:
+elif day_number > 0 and day_number < 6:
     print('Нет')
 else:
     print('Ошибка, введите число от 1 до 7')
