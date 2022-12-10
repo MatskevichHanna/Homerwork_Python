@@ -6,3 +6,15 @@
 # - x=2; y=4-> 1
 # - x=-34; y=-30 -> 3
 
+number_X = int(input('Введите координату точки X:\n'))
+number_Y = int(input('Введите координату точки Y:\n'))
+if number_X > 0 and number_Y > 0:
+    print('Первая четверть')
+elif number_X < 0 and number_Y > 0:
+    print('Вторая четверть')
+elif number_X < 0 and number_Y < 0:
+    print('Третья четверть')
+elif number_X > 0 and number_Y < 0:
+    print('Четвертая четверть')
+else:
+    print('Введены некорректные данные')
